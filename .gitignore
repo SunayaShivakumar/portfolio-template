@@ -5,5 +5,4 @@ node_modules/
 npm-debug.log
 public/css/
 public/js/
-public/bower_lib/
 public/lib/
