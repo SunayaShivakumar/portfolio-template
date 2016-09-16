@@ -3,7 +3,9 @@
   "version": "2.0",
   "homepage": "https://github.com/uiuc-web-programming/mp2_starter",
   "authors": [
-    "biplabdeka <biplab.deka@gmail.com>"
+    "biplab deka <biplab.deka@gmail.com>",
+    "sujay khandekar <khandek2@illinois.edu>",
+    "devin ho <ho.devin05@gmail.com>"
   ],
   "ignore": [
     "**/.*",
