@@ -2,8 +2,12 @@
 
 body{
 	@include breakpoint(medium down){
-		background: lightgray;
+		border: 5px black solid;
 	}
+}
+
+.llama {
+  background: url('../media/llama.jpg') no-repeat center center fixed;
 }
 
 .text-center {
