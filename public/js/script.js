@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".modal").slick({arrows:!0}),$(function(){$('a[href^="#"]').click(function(a){a.preventDefault(),$("html, body").animate({scrollTop:$(this.hash).offset().top},700)})})}),$(document).on("scroll",function(){$(document).scrollTop()>400?$("header").removeClass("big").addClass("tiny"):$("header").removeClass("tiny").addClass("big")});

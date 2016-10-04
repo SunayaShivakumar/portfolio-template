@@ -3,51 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>MP2 Starter</title>
-
+  <title>Sunaya Shivakumar</title>
+  <link rel="icon" href="media/favicon.ico" type="image/x-icon">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./lib/slick-carousel/slick/slick.css">
 </head>
 
 <body>
-  <nav class="top-bar">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">MP2</li>
-        <li>
-          <a href="https://courses.engr.illinois.edu/cs498rk1/" target="_blank">Web Page</a>
-        </li>
-      </ul>
+    <header class="big">
+    <div class="fixed">
+      <nav class="row top-bar">
+            <ul class="menu right">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+            </ul>
+      </nav>
     </div>
-  </nav>
+    </header>
 
-	<div class="row text-center">
-		<h3>LLAMAS</h3>
-	</div>
+    <div id="home" class="row">
+      <h1>SUNAYA SHIVAKUMAR</h1>
+    </div>
 
-	<section class="row">
-		<div class="alert columns small-12 large-6">
-			<div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Domestic_llama_(2009-05-19).jpg"/>
+    <div id="about" class="row">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ex arcu. Cras sed eros ac est suscipit convallis ac a sapien. Vivamus eu vestibulum odio, non volutpat tellus. Sed vehicula tristique ex ac posuere. Nullam vestibulum consequat placerat. Ut vitae enim orci. Nulla finibus augue a viverra semper. Hello!</p>
+    </div>
+
+    <div  id="projects" class="row">
+      <h2>Projects</h2>
+      <div class="columns small-4 large-4 text-center" class="one">
+        <a href="#" data-reveal-id="myModal"><img src="./media/modalone.png"></a>
       </div>
-			<p>The llama is a domesticated South American camelid, widely used as a meat and pack animal by Andean cultures since the Pre-Columbian era.
-      </p>
-      <p>The height of a full-grown, full-size llama is 1.7 to 1.8 m (5.6 to 5.9 ft) tall at the top of the head, and can weigh between 130 and 200 kg (290 and 440 lb). At birth, a baby llama (called a cria) can weigh between 9 and 14 kg (20 and 31 lb). Llamas typically live for 15 to 25 years, with some individuals surviving 30 years or more.</p>
-    </div>
-		<div class="columns small-12 large-6">
-	  	<div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Machu_Picchu_Llama_2.jpg"/>
+      <div class="columns small-4 large-4 text-center" class="two">
+        <a href="#" data-reveal-id="myModal"><img src="./media/modaltwo.png"></a>
       </div>
-	  	<p>They are very social animals and live with other llamas as a herd. The wool produced by a llama is very soft and lanolin-free. Llamas are intelligent and can learn simple tasks after a few repetitions. When using a pack, they can carry about 25 to 30% of their body weight for 8 to 13 km (5–8 miles).</p>
-      <p>The name llama (in the past also spelled 'lama' or 'glama') was adopted by European settlers from native Peruvians.</p>
-    </div>
-  </section>
+      <div class="columns small-4 large-4 text-center" class="three">
+        <a href="#" data-reveal-id="myModal"><img src="./media/modalthree.png"></a>
+      </div>
 
-  <footer class="row text-center">
-    <h5>Content taken from <a href="https://en.wikipedia.org/wiki/Llama">wikipedia</a>.</h5>
-  </footer>
-  <!-- Scripts -->
-  
+    </div>
+
+    <div id="portfolio" class="row">
+      <h2>Portfolio</h2>
+      <div class="modal">
+        <div><img src="./media/carousel.png"></div>
+        <div><img src="./media/carousel.png"></div>
+        <div><img src="./media/carousel.png"></div>
+      </div>
+    </div>
+
+    <footer class="row text-center">
+      <div class="socialMedia">
+        <a href="https://www.facebook.com/sunaya.kumar.3">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/sunayashivakumar/">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/SunayaShivakumar/mp2">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
   <script src="./lib/jquery/dist/jquery.min.js"></script>
   <script src="./lib/foundation-sites/dist/foundation.min.js"></script>
   <script src="./js/script.js"></script>
@@ -55,6 +76,7 @@
     $(document).foundation();
   </script>
   <script src="http://localhost:35729/livereload.js"></script>
+  <script src="./lib/slick-carousel/slick/slick.min.js"></script>
 
 </body>
 </html>
