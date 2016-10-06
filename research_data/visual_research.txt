@@ -1,20 +1,22 @@
 MP2: Visual Design Research Write Up
-Netid:
+Netid: sshivak2
 
 
 Webpage 1:
 
-- [URL]
-- [WRITE_UP]
-
+- http://jessdesigntan.com/
+- This is Jess Tan’s personal/resume website. It is a single-page website that essentially informs us in detail about everything that goes on a resume. Talking about this particular website - it has a clean, and straightforward design, that uses a two-color palette (blue, and white). The different sections in the website use these two colors alternatively as the background color - which keeps them separate yet, simple. I find this design choice to be engaging, and effective at the same time; therefore I chose to incorporate this into my mp submission - only with different colors.
+In addition, the website is divided into two unequal columns - the first for the section title, the second for the section content - creating a very clear hierarchy that is also seen on a paper resume. This also makes it very clear to the viewer that they are reviewing a person’s resume. 
 
 Webpage 2:
 
-- [URL]
-- [WRITE_UP]
-
+- http://www.joycevherck.com/
+- Another one-page, personal website about Joyce Van Herck. This website is one example, among many others, that uses big, white/light-colored text over a full-width background image. While it is usually advisable not to overlay text over image, the examples on the web carefully choose images that provide great contrast to the text. This design decision seems to be turning into a trend - so much so, that even I decided to include it in my own mp submission.  
+In addition, this website has a very distinct, eye-catching look; It uses angled divs, triangular line-art, and triangular icons. The use of a hamburger menu suggests that this website is also responsive, and mobile-friendly. 
 
 Webpage 3:
 
-- [URL]
-- [WRITE_UP]
+- http://priscofrancesco.com/
+- Yet another one-page, personal/resume website! A very clean, sleek website design by Francesco Prisco, that uses a very minimal color palette - black, white, and grey. Another example of alternatively colored sections.  
+This website has a clear two-column div, without out even using a divider. It conveys the information it is supposed to - presenting the different design work done by the author. The content is clear, concise, and sometimes playful.  
+The portfolio section is beautifully designed with a seamless grid-like layout for the different works featured. The use of black and white images, here is clearly a great design decision on the author’s part, as it does not remove from the essence of the rest of the website. I initially chose to use this design choice for the projects section in my mp submission. However, the content I was presenting had a lot of text, which forced me to put spacing between the different columns to distinguish them.

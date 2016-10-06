@@ -5372,96 +5372,58 @@ table.hover tr:nth-of-type(even):hover {
   font-family: Gruppo;
   src: url("../media/Gruppo-Regular.ttf");
 }
-/*body{
-	@include breakpoint(medium down){
-		border: 5px black solid;
-	}
-}
-
-.llama {
-  background: url('../media/llama.jpg') no-repeat center center fixed;
-}
-
-.text-center {
-  padding: 30px;
-
-  img {
-    border: 1px solid black;
-    max-height: 200px;
-  }
-}*/
-/*I added stuff below here*/
-/* line 29, ../../source_sass/_base.scss */
+/* line 7, ../../source_sass/_base.scss */
 html, body {
   padding: 0;
   margin: 0;
 }
 
-/* line 34, ../../source_sass/_base.scss */
+/* line 12, ../../source_sass/_base.scss */
 .row {
   max-width: 100%;
 }
 
-/* line 38, ../../source_sass/_base.scss */
+/* line 16, ../../source_sass/_base.scss */
 header.big {
   z-index: 100;
   position: fixed;
   background-color: #000000;
   width: 100%;
-  height: 8vh;
+  height: 6.9vh;
 }
-/* line 44, ../../source_sass/_base.scss */
-header.big .top-bar {
+/* line 22, ../../source_sass/_base.scss */
+header.big .border {
+  border-bottom: 1px solid #1A371D;
+}
+/* line 24, ../../source_sass/_base.scss */
+header.big .border .top-bar {
   background-color: #000000;
 }
-/* line 46, ../../source_sass/_base.scss */
-header.big .top-bar ul {
+/* line 26, ../../source_sass/_base.scss */
+header.big .border .top-bar ul {
   background-color: #000000;
   float: right;
 }
+/* line 29, ../../source_sass/_base.scss */
+header.big .border .top-bar ul li {
+  background-color: #000000;
+}
+/* line 31, ../../source_sass/_base.scss */
+header.big .border .top-bar ul li a {
+  color: #FFFFFF;
+  font-family: Gruppo;
+  font-weight: bold;
+  font-size: 0.74rem;
+  background-color: #000000;
+  cursor: pointer;
+}
+/* line 41, ../../source_sass/_base.scss */
+header.big .border .top-bar ul li.active a {
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #000000;
+}
+
 /* line 49, ../../source_sass/_base.scss */
-header.big .top-bar ul li {
-  background-color: #000000;
-}
-/* line 51, ../../source_sass/_base.scss */
-header.big .top-bar ul li a {
-  color: #FFFFFF;
-  font-family: Gruppo;
-  font-weight: bold;
-  background-color: #000000;
-}
-
-/* line 62, ../../source_sass/_base.scss */
-header.tiny {
-  z-index: 100;
-  position: fixed;
-  background-color: #000000;
-  width: 100%;
-  height: 4vh;
-}
-/* line 68, ../../source_sass/_base.scss */
-header.tiny .top-bar {
-  background-color: #000000;
-}
-/* line 70, ../../source_sass/_base.scss */
-header.tiny .top-bar ul {
-  background-color: #000000;
-  float: right;
-}
-/* line 73, ../../source_sass/_base.scss */
-header.tiny .top-bar ul li {
-  background-color: #000000;
-}
-/* line 75, ../../source_sass/_base.scss */
-header.tiny .top-bar ul li a {
-  color: #FFFFFF;
-  font-family: Gruppo;
-  font-weight: bold;
-  font-size: 0.95rem;
-  background-color: #000000;
-}
-
-/* line 87, ../../source_sass/_base.scss */
 #home {
   background-image: url(../media/background.png);
   position: relative;
@@ -5472,7 +5434,7 @@ header.tiny .top-bar ul li a {
   height: 100vh;
   z-index: 1;
 }
-/* line 96, ../../source_sass/_base.scss */
+/* line 58, ../../source_sass/_base.scss */
 #home h1 {
   position: relative;
   top: 50%;
@@ -5486,89 +5448,301 @@ header.tiny .top-bar ul li a {
   z-index: 2;
   margin-bottom: 0;
 }
-
-/* line 107, ../../source_sass/_base.scss */
-#about {
-  background-color: #1A371D;
-  padding: 5.5% 10%;
+/* line 67, ../../source_sass/_base.scss */
+#home p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+  font-family: Gruppo;
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 0;
+  font-weight: bold;
 }
-/* line 110, ../../source_sass/_base.scss */
+
+/* line 79, ../../source_sass/_base.scss */
+#about {
+  background-color: #000000;
+  padding: 3% 10% 3% 10%;
+}
+/* line 82, ../../source_sass/_base.scss */
 #about h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: RofiTaste;
   color: #FFFFFF;
   text-align: center;
   overflow: hidden;
 }
-/* line 117, ../../source_sass/_base.scss */
+/* line 89, ../../source_sass/_base.scss */
 #about p {
   text-align: center;
   color: #FFFFFF;
   font-family: Gruppo;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   overflow: hidden;
 }
+/* line 96, ../../source_sass/_base.scss */
+#about video {
+  display: inherit;
+  margin: 0 auto;
+  width: 50%;
+}
 
-/* line 126, ../../source_sass/_base.scss */
+/* line 103, ../../source_sass/_base.scss */
 #projects {
-  background-color: #000000;
-  padding: 5.5% 10%;
+  background-color: #1A371D;
+  padding: 3% 10% 3% 10%;
 }
-/* line 129, ../../source_sass/_base.scss */
+/* line 106, ../../source_sass/_base.scss */
 #projects h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: RofiTaste;
   color: #FFFFFF;
   text-align: center;
   overflow: hidden;
 }
-/* line 137, ../../source_sass/_base.scss */
+/* line 114, ../../source_sass/_base.scss */
 #projects .one #button, #projects .two #button, #projects .three #button {
+  padding: 15px 15px;
   cursor: pointer;
-  transition: .2s;
 }
-/* line 141, ../../source_sass/_base.scss */
-#projects .one #button:hover, #projects .two #button:hover, #projects .three #button:hover {
-  opacity: .8;
+/* line 119, ../../source_sass/_base.scss */
+#projects .moddd {
+  display: none;
+  position: fixed;
+  text-align: center;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* line 132, ../../source_sass/_base.scss */
+#projects .moddd .original {
+  display: inline-block;
+  width: 85%;
+  height: 70%;
+}
+/* line 138, ../../source_sass/_base.scss */
+#projects .moddd #captiono, #projects .moddd #captiont, #projects .moddd #captionh, #projects .moddd #caption {
+  display: inline-block;
+  width: 100%;
+  padding-top: 5px;
+  font-family: Gruppo;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+}
+/* line 147, ../../source_sass/_base.scss */
+#projects .moddd .original, #projects .moddd #caption, #projects .moddd #captiono, #projects .moddd #captiont, #projects .moddd #captionh, #projects .moddd .closeo, #projects .moddd .closeh, #projects .moddd .closet {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 164, ../../source_sass/_base.scss */
+#projects .moddd .close, #projects .moddd .closeo, #projects .moddd .closet, #projects .moddd .closeh {
+  color: #FFFFFF;
+  display: block;
+  font-family: Gruppo;
+  font-size: 1.2rem;
+  transition: .2s;
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
+/* line 174, ../../source_sass/_base.scss */
+#projects .moddd .close:hover, #projects .moddd .close:focus, #projects .moddd .closeo:hover, #projects .moddd .closeo:focus, #projects .moddd .closet:hover, #projects .moddd .closet:focus, #projects .moddd .closeh:hover, #projects .moddd .closeh:focus {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/* line 147, ../../source_sass/_base.scss */
+/* line 181, ../../source_sass/_base.scss */
 #portfolio {
-  background-color: blue;
-  /*$green*/
-  padding: 5.5% 10%;
+  background-color: #000000;
+  padding: 3% 10% 3% 10%;
+  text-align: center;
 }
-/* line 150, ../../source_sass/_base.scss */
+/* line 185, ../../source_sass/_base.scss */
 #portfolio h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: RofiTaste;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+/* line 191, ../../source_sass/_base.scss */
+#portfolio .carousel {
+  display: inline-flex;
+  position: relative;
+  width: 70%;
+}
+
+/* line 198, ../../source_sass/_base.scss */
+#contact {
+          /*
+	background-color: rgba(26,55,29, 0.7);*/
+  background-color: #1A371D;
+  padding: 3% 10% 3% 10%;
+  overflow: hidden;
+  /*	#backvid {
+  		position: fixed;
+  		top: 50%;
+  		left: 50%;
+  		transform: translateX(-50%) translateY(-50%);
+  		background-size: contain;
+  		transition: 1s opacity;
+  		z-index: -100;
+  	}*/
+}
+/* line 203, ../../source_sass/_base.scss */
+#contact h2 {
+  font-size: 3.5rem;
   font-family: RofiTaste;
   color: #FFFFFF;
   text-align: center;
   overflow: hidden;
 }
-
-/* line 165, ../../source_sass/_base.scss */
-footer {
-  background-color: #000000;
+/* line 219, ../../source_sass/_base.scss */
+#contact #mydiv {
+  overflow: hidden;
 }
-/* line 167, ../../source_sass/_base.scss */
-footer .socialMedia {
-  display: inline-block;
+/* line 221, ../../source_sass/_base.scss */
+#contact #mydiv p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Gruppo;
+  font-size: 1.4rem;
+  overflow: hidden;
 }
-/* line 169, ../../source_sass/_base.scss */
-footer .socialMedia a {
-  padding: 15px 15px;
+/* line 228, ../../source_sass/_base.scss */
+#contact #mydiv #email {
+  text-align: center;
+  display: inherit;
+  color: #FFFFFF;
+  font-family: Gruppo;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+/* line 236, ../../source_sass/_base.scss */
+#contact #mydiv .socialMedia {
+  display: inherit;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 240, ../../source_sass/_base.scss */
+#contact #mydiv .socialMedia a {
+  padding: 7px 15px;
   text-decoration: none;
   display: inline-block;
+  overflow: hidden;
 }
-/* line 173, ../../source_sass/_base.scss */
-footer .socialMedia a i {
+/* line 245, ../../source_sass/_base.scss */
+#contact #mydiv .socialMedia a i {
   color: #FFFFFF;
   font-size: 1.5rem;
+  cursor: pointer;
+  overflow: hidden;
 }
-/* line 177, ../../source_sass/_base.scss */
-footer .socialMedia a i:hover {
-  color: #000000;
+
+/* line 258, ../../source_sass/_base.scss */
+footer {
+  background-color: #000000;
+  padding-top: 5px;
+}
+/* line 261, ../../source_sass/_base.scss */
+footer p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Gruppo;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+/* line 270, ../../source_sass/_base.scss */
+header.tiny {
+  z-index: 100;
+  border-bottom: 1px solid #1A371D;
+  position: fixed;
+  background-color: #000000;
+  width: 100%;
+  height: 3.7vh;
+}
+/* line 277, ../../source_sass/_base.scss */
+header.tiny .border {
+  border-bottom: 1px solid #1A371D;
+}
+/* line 279, ../../source_sass/_base.scss */
+header.tiny .border .top-bar {
+  background-color: #000000;
+}
+/* line 281, ../../source_sass/_base.scss */
+header.tiny .border .top-bar ul {
+  background-color: #000000;
+  float: right;
+}
+/* line 284, ../../source_sass/_base.scss */
+header.tiny .border .top-bar ul li {
+  background-color: #000000;
+}
+/* line 286, ../../source_sass/_base.scss */
+header.tiny .border .top-bar ul li a {
+  color: #FFFFFF;
+  font-family: Gruppo;
+  font-weight: bold;
+  font-size: 0.65rem;
+  background-color: #000000;
+}
+/* line 295, ../../source_sass/_base.scss */
+header.tiny .border .top-bar ul li.active a {
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #000000;
+}
+
+/* line 303, ../../source_sass/_base.scss */
+.fa-angle-right, .fa-angle-left {
+  margin: 25% 5%;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+/* line 311, ../../source_sass/_base.scss */
+.slick-prev, .slick-next {
+  position: absolute;
+  display: block;
+}
+
+/* line 316, ../../source_sass/_base.scss */
+.columns {
+  padding: 10px 10px;
+}
+
+/* line 320, ../../source_sass/_base.scss */
+.menu > li > a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /*

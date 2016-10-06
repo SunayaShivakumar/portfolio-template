@@ -1,20 +1,21 @@
 MP2: Functional Design Research Write Up
-Netid:
+Netid: sshivak2
 
 
 Webpage 1:
 
-- [URL]
-- [WRITE_UP]
+- http://www.fleeangrybear.com/
+- AngryBear - a full service design agency website that features a very cool, and long original artwork. What is most interesting about this website is the it has a bottom navigation menu. It has a fixed functionality which makes the menu available at all times. This makes it easy to navigate to different sections in the website, without having to scroll through the entire, and very long webpage. It also features smooth scrolling, a popular feature that makes is possible to slide down a long webpage smoothly. This not only makes the readability better, but at the same time, it shows off the very lengthy artwork. Both these functionalities are implemented in the mp submission.
 
 
 Webpage 2:
 
-- [URL]
-- [WRITE_UP]
+- http://melaniedaveid.com/
+- This is Melanie Daveid’s personal resume website. The most fascinating feature of this website is how the two column divs are treated. The left div/section with the section title (eg: Work) stays fixed as the viewer scrolls through all the content presented in the right div/section (different work experience, etc). This the left section loses it’s fixed functionality, as soon as the right section ends or runs out of content to show. Then the viewer lands on another two column section with a similar functionality.
+As viewers scroll down to the very end, they are treated to a very creatively designed, web animated high five!
 
 
 Webpage 3:
 
-- [URL]
-- [WRITE_UP]
+- http://nrly.co/
+- Nathan Riley’s personal website. First off, this website has a very cool loading image/logo. Second, there is an interactive, constellation background that is animated using JavaScript. Third, as viewers scroll down they are treated to a clever, beautiful two-column layout that seems to have a fixed image over which they can scroll through the text content. The most useful functionality of this website, is how is has position indicating dots on the right hand side of the website. This informs a viewer about which page they are currently on, making it easy to tell how much more there is to go. This functionality is implemented in the navigation menu for the mp submission.
